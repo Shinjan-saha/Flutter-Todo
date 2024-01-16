@@ -13,11 +13,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: TodoScreen(),
+      home: TodoScreen(), // Calls the Class in RootWidget 
     );
   }
 }
 
+
+// The class which has the whole UI 
 class TodoScreen extends StatefulWidget {
   @override
   _TodoScreenState createState() => _TodoScreenState();
@@ -83,7 +85,7 @@ class _TodoScreenState extends State<TodoScreen> {
       ),
     );
   }
-
+// Function to Add 
   void addTodo() {
     setState(() {
       String newTodo = todoController.text.trim();
@@ -94,12 +96,14 @@ class _TodoScreenState extends State<TodoScreen> {
     });
   }
 
+ // Function to Remove 
   void removeTodo(int index) {
     setState(() {
       todos.removeAt(index);
     });
   }
 
+// Function for Checkbox 
   void toggleTodo(int index) {
     setState(() {
       todos[index].isCompleted = !todos[index].isCompleted;
