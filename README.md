@@ -1,8 +1,28 @@
-# todo
+# Todo
 
-A new Flutter project.
+A Todo Flutter project.
 
 ## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Shinjan-saha/Flutter-Todo git
+   ```
+
+### Running the Flutter App
+
+1. **Open the `flutter` directory:**
+
+   ```bash
+   cd your-folder-loctation
+   ```
+
+2. **Run the app:**
+
+   ```bash
+   flutter run
+   ```
+
 
 This project is a starting point for a Flutter application.
 
