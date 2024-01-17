@@ -22,7 +22,9 @@ A Todo Flutter project.
    ```bash
    flutter run
    ```
-
+2. **Download/Try  the App:**
+-  [Click here](https://drive.google.com/file/d/1VyjUfUnLynBHQjDKsgDPeq4AsP_BK1Bm/view?usp=sharing)
+   
 
 This project is a starting point for a Flutter application.
 
